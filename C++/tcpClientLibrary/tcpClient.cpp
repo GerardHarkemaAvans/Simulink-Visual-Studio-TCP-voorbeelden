@@ -1,3 +1,9 @@
+/*!
+\file tcpClient.c
+\brief Implementatie(.cpp) van de TCP/IP library voor TCP/IP communicatie met een Arduino Simulink model
+\author Gerard Harkema
+\date 6 maart 2019
+*/
 #include "stdafx.h"  // Dummy to make it compiling
 #include "tcpClient.h"
 #include <iostream>

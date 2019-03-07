@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcpReceiveFromSimulinkDevic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcpSendToSimulinkDevice", "tcpSendToSimulinkDevice\tcpSendToSimulinkDevice.vcxproj", "{D5BF01B0-456C-4584-BEA9-630EE11291FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC8E2A3A-B153-45D8-BF37-25343F4A4781}"
+	ProjectSection(SolutionItems) = preProject
+		Doxyfile.txt = Doxyfile.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
