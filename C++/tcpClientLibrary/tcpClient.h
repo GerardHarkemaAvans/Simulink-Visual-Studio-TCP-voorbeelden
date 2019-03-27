@@ -61,7 +61,7 @@ public:
 
 	/*! \brief Verbinding verbreken met het Arduino Simulink model
 
-	\return				0: bij succes\n
+	\return				0: bij succes \n
 						<>0: als er een fout is opgetreden.
 	*/	
 	int disconnectFromServer(void);
