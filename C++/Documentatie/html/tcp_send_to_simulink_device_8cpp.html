@@ -74,6 +74,9 @@ $(function() {
 <div class="title">tcpSendToSimulinkDevice.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Voorbeeld programma om gegevens naar een Arduino simulink-model te zenden door middel van het tcp/ip protocol.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="tcp_send_to_simulink_device_2stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tcp_client_8h_source.html">../tcpClientLibrary/tcpClient.h</a>&quot;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
@@ -95,14 +98,21 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tcp_send_to_simulink_device_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Beginpunt van het programma.  <a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a64388fb4c9f37d937aa7e9a0e67aa079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtcp_client.html">tcpClient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tcp_send_to_simulink_device_8cpp.html#a64388fb4c9f37d937aa7e9a0e67aa079">theTcpSendClient</a> (<a class="el" href="tcp_send_to_simulink_device_8cpp.html#ad8a262037cbfb38d1512f0073eeb7a66">IP_ADDRESS</a>, <a class="el" href="tcp_send_to_simulink_device_8cpp.html#a614217d263be1fb1a5f76e2ff7be19a2">PORT</a>)</td></tr>
+<tr class="memdesc:a64388fb4c9f37d937aa7e9a0e67aa079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Het object waardoor de data wordt verzonden.  <a href="#a64388fb4c9f37d937aa7e9a0e67aa079">More...</a><br /></td></tr>
 <tr class="separator:a64388fb4c9f37d937aa7e9a0e67aa079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Voorbeeld programma om gegevens naar een Arduino simulink-model te zenden door middel van het tcp/ip protocol. </p>
+<dl class="section author"><dt>Author</dt><dd>Gerard Harkema </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>6 maart 2019 </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Gebuik dit programma samen met het TransmitToTcpServer.xls simulink model </dd></dl>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad8a262037cbfb38d1512f0073eeb7a66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8a262037cbfb38d1512f0073eeb7a66">&#9670;&nbsp;</a></span>IP_ADDRESS</h2>
 
@@ -114,6 +124,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>IP_ADDRESS: Ip address van het simulink model in de Arduino </p>
 
 </div>
 </div>
@@ -128,6 +139,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>PORT: poortnummer van het simulink model in de Arduino </p>
 
 </div>
 </div>
@@ -147,6 +159,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Beginpunt van het programma. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -161,6 +175,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Het object waardoor de data wordt verzonden. </p>
 
 </div>
 </div>
