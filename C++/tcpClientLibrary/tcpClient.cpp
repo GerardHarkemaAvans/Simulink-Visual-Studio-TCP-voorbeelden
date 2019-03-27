@@ -1,5 +1,5 @@
 /*!
-\file tcpClient.c
+\file tcpClient.cpp
 \brief Implementatie(.cpp) van de TCP/IP library voor TCP/IP communicatie met een Arduino Simulink model
 \author Gerard Harkema
 \date 6 maart 2019

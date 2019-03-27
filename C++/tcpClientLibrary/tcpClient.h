@@ -18,10 +18,8 @@ public:
 
 	/*! \brief Verbinding maken met de TCP/IP server in het Arduino Simulink model.\n
 
-	\param ip_address	Ip address van TCP/IP server in her Arduino Simulink model
-	\param port			Poortnummer van TCP/IP server in her Arduino Simulink model
-	\return				0: bij succes\n
-						<> 0: als er een fout is opgetreden.
+	\param ip_address	Ip address van TCP/IP server in het Arduino Simulink model
+	\param port			Poortnummer van TCP/IP server in het Arduino Simulink model
 	*/
 	tcpClient(const char * ip_address, unsigned int port);
 	
